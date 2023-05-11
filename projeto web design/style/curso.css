@@ -1,0 +1,27 @@
+*{font-family: 'Times New Roman', Times, serif;
+
+}
+
+#design,#robotica,#inteligencia,#mecanica,#hardware{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#design{
+    height: 400px;
+    background-image: url(../imagens/design.jpg);
+}
+#robotica{
+    height: 400px;
+    background-image: url(../imagens/robotica.jpg);
+}
+#inteligencia{
+    height: 400px;
+    background-image: url(../imagens/inteligência\ artificial.jpg);
+}
+#mecanica{
+    height: 400px;
+    background-image: url(../imagens/mecanica.jpg);
+}

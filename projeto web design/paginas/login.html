@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/logi.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="name">
+                <h2>Academia smart tec</h2>
+            </div>
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li class="navbar-item"><a href="cursos.html" class="nav-link text-light"> Cursos</a></li>
+                        <li class="navbar-item"><a href="sobre.html" class="nav-link text-light"> Sobre</a></li>
+                        <li class="navbar-item"><a href="blog.html" class="nav-link text-light"> blog</a></li>
+                        <li class="navbar-item"><a href="login.html" class="nav-link text-light"> login</a></li>
+                        <li class="navbar-item"><a href="cadastro.html" class="nav-link text-light"> cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="principal">
+                <div id="banner">
+                    <img src="../imagens/imagem avaliacao.jpg" style="width: 100%">
+                </div>
+            <div id="formulario">
+                <h1 style="color: white">Faça o seu login</h1><br>
+                    <form action="paginas/login.html" method="post">
+                    <label style="color: white" for="email">E-mail:</label>
+                    <input type="text" id="nome" required><br><br>
+                    <label style="color: white" for="senha">Senha:</label>
+                    <input type="password" id="senha"><br><br> 
+                    <div class="conjunto">
+                        <tag style="color: white">Lembrar senha?</tag>
+                        <input type="checkbox" class="check">
+                    </div>  
+                    <button type="submit">Entrar</button>
+                      <p style="color: white" >Esqueceu sua senha?
+                          <a style="color:white" href="esquecisenha.html"> Clique aqui</a>
+                        </p> 
+                      <p style="color: white">Não está matriculado?
+                          <a style="color:white" href="cadastro.html"> cadastre-se aqui</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>

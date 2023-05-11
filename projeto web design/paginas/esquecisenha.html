@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de senha</title>
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/senha.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="name">
+                <h2>Academia smart tec</h2>
+            </div>
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li class="navbar-item"><a href="cursos.html" class="nav-link text-light"> Cursos</a></li>
+                        <li class="navbar-item"><a href="sobre.html" class="nav-link text-light"> Sobre</a></li>
+                        <li class="navbar-item"><a href="blog.html" class="nav-link text-light"> blog</a></li>
+                        <li class="navbar-item"><a href="login.html" class="nav-link text-light"> login</a></li>
+                        <li class="navbar-item"><a href="cadastro.html" class="nav-link text-light"> cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="principal">
+                <div id="banner">
+                    <img src="../imagens/imagem avaliacao.jpg">
+                </div>
+            <div id="formulario">
+                <h3 style="color: white">Para recuperar sua Senha<br></h3>
+                <h3 style="color: white">Digite o seu indereço de email:</h3>
+                    <form action="paginas/login.html" method="post">
+                    <label style="color: white" for="email">E-mail:</label><br>
+                    <input type="email" id="email"><br>
+                    <h3 style="color: white" >Digite o codigo enviado ao seu E-mail:</h3>    
+                    <label style="color: white" for="codigo">codigo</label><br>
+                    <input type="code" id="codigo"><br><br>
+                        <h3 style="color: white">crie uma nova senha </h3>
+                    <label style="color: white" for="senha">Nova senha:</label><br>
+                    <input type="password" id="senha" required><br>
+                    <label style="color: white" for="senha">confirme sua senha:</label><br>
+                    <input type="password" id="senha"><br><br>   
+                    <button style="color: black" type="submit">Confirmar</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

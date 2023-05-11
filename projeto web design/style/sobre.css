@@ -1,0 +1,21 @@
+*{font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+#banner{
+    height: 450px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagens/programação.jpg);
+}
+
+#criador{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagens/tiago\ perfil.jpg);
+}
+

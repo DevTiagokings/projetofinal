@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/cad.css">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="name">
+                <h2>Academia smart tec</h2>
+            </div>
+            <nav>
+                <div id="menu">
+                    <ul>
+                        <li class="navbar-item"><a href="cursos.html" class="nav-link text-light"> Cursos</a></li>
+                        <li class="navbar-item"><a href="sobre.html" class="nav-link text-light"> Sobre</a></li>
+                        <li class="navbar-item"><a href="blog.html" class="nav-link text-light"> blog</a></li>
+                        <li class="navbar-item"><a href="login.html" class="nav-link text-light"> login</a></li>
+                        <li class="navbar-item"><a href="cadastro.html" class="nav-link text-light"> cadastro</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="principal">
+                <div id="banner">
+                    <img src="../imagens/imagem avaliacao.jpg">
+                </div>
+            <div id="formulario">
+                <h1 style="color: white">Seja bem vindo</h1>
+                <h1 style="color: white">academia smart tec</h1><br>
+                <h2 style="color: white">faça o seu cadastro</h2><br>
+                    <form action="paginas/cadastro.html" method="post">
+                    <label style="color: white" id="nome">Nome:</label><br>
+                    <input type="text" id="nome" required><br>
+                    <label style="color: white" for="sobrenome">sobrenome:</label><br>
+                    <input type="text" id="nome"><br>
+                    <label style="color: white" for="date">data de nascimento:</label><br>
+                    <input type="date" id="date"><br>
+                    <label style="color: white" for="email">E-mail</label><br>
+                    <input type="email" id="email"><br> 
+                    <label style="color: white" type="senha">senha:</label><br>
+                    <input type="password" id=senha><br>
+                    <label style="color: white" type="text">Confirme sua senha:</label><br>
+                    <input type="password" id=senha ><br>
+                    <div class="conjunto">
+                        <tag style="color: white">Deseja receber avisos no email?</tag>
+                        <input type="checkbox" class="check">
+                    </div>
+                    <button type="button">Cadastrar</button>
+                    </form>
+                    </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
