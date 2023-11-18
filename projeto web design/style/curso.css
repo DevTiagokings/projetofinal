@@ -1,6 +1,10 @@
 *{font-family: 'Times New Roman', Times, serif;
 
 }
+.sumir{
+
+    display: none;
+}
 
 #design,#robotica,#inteligencia,#mecanica,#hardware{
     background-repeat: no-repeat;
@@ -25,3 +29,4 @@
     height: 400px;
     background-image: url(../imagens/mecanica.jpg);
 }
+

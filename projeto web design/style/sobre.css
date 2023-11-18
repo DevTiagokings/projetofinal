@@ -1,6 +1,8 @@
-*{font-family: 'Times New Roman', Times, serif;
-  
-
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
 }
 
 #banner{
@@ -11,6 +13,7 @@
     background-image: url(../imagens/programação.jpg);
 }
 
+
 #criador{
     height: 400px;
     width: 400px;
@@ -18,4 +21,4 @@
     background-size: cover;
     background-image: url(../imagens/tiago\ perfil.jpg);
 }
-
+ 

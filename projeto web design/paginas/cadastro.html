@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de cadastro</title>
     <link rel="stylesheet" href="../style/geral.css">
-    <link rel="stylesheet" href="../style/cad.css">
+    <link rel="stylesheet" href="../style/cadastro.css">
 </head>
 <body>
-    <div id="pagina">
         <header>
-            <div id="name">
                 <h2>Academia smart tec</h2>
-            </div>
             <nav>
-                <div id="menu">
-                    <ul>
-                        <li class="navbar-item"><a href="cursos.html" class="nav-link text-light"> Cursos</a></li>
-                        <li class="navbar-item"><a href="sobre.html" class="nav-link text-light"> Sobre</a></li>
-                        <li class="navbar-item"><a href="blog.html" class="nav-link text-light"> blog</a></li>
-                        <li class="navbar-item"><a href="login.html" class="nav-link text-light"> login</a></li>
-                        <li class="navbar-item"><a href="cadastro.html" class="nav-link text-light"> cadastro</a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li ><a href="cursos.html"style="font-size: 18px;">Cursos</a></li>
+                    <li ><a href="sobre.html"style="font-size: 18px;">Sobre</a></li>
+                    <li ><a href="blog.html"style="font-size: 18px;">blog</a></li>
+                    <li ><a href="login.html"style="font-size: 18px;">login</a></li>
+                    <li ><a href="cadastro.html"style="font-size: 18px;">cadastro</a></li>
+                    <li ><a href="privacidade.html"style="font-size: 18px;">Política de Privacidade</a></li>
+                </ul>
             </nav>
+
+            <div id="menu">
+                <ul>
+                    <li><button id="closemenu">X</button></li>
+                    <li ><a href="cursos.html"style="font-size: 18px;">Cursos</a></li>
+                    <li ><a href="sobre.html"style="font-size: 18px;">Sobre</a></li>
+                    <li ><a href="blog.html"style="font-size: 18px;">blog</a></li>
+                    <li ><a href="login.html"style="font-size: 18px;">login</a></li>
+                    <li ><a href="cadastro.html"style="font-size: 18px;">cadastro</a></li>
+                    <li ><a href="privacidade.html"style="font-size: 18px;">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div id="menuButton">
+                <span class="sumir" style="color: aliceblue;">-</span> 
+            </div>
         </header>
         <main>
             <div id="principal">
@@ -34,7 +45,7 @@
             <div id="formulario">
                 <h1 style="color: white">Seja bem vindo</h1>
                 <h1 style="color: white">academia smart tec</h1><br>
-                <h2 style="color: white">faça o seu cadastro</h2><br>
+                <h1 style="color: white">faça o seu cadastro</h1><br>
                     <form action="paginas/cadastro.html" method="post">
                     <label style="color: white" id="nome">Nome:</label><br>
                     <input type="text" id="nome" required><br>
@@ -54,9 +65,9 @@
                     </div>
                     <button type="button">Cadastrar</button>
                     </form>
-                    </div>
             </div>
         </main>
+        <script src="../js/script.js"></script>
     </div>
 </body>
 </html>
