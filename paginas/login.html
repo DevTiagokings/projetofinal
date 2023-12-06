@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/logi.css">
+</head>
+<body>
+    <header>
+            <h2>Academia smart tec</h2>
+            <nav>
+                <ul>
+                    <li ><a href="cursos.html"style="font-size: 18px;">Cursos</a></li>
+                    <li ><a href="sobre.html"style="font-size: 18px;">Sobre</a></li>
+                    <li ><a href="blog.html"style="font-size: 18px;">blog</a></li>
+                    <li ><a href="login.html"style="font-size: 18px;">login</a></li>
+                    <li ><a href="cadastro.html"style="font-size: 18px;">cadastro</a></li>
+                    <li ><a href="privacidade.html"style="font-size: 18px;">Política de Privacidade</a></li>
+                </ul>
+            </nav>
+
+            <div id="menu">
+                <ul>
+                    <li><button id="closemenu">X</button></li>
+                    <li ><a href="cursos.html"style="font-size: 18px;">Cursos</a></li>
+                    <li ><a href="sobre.html"style="font-size: 18px;">Sobre</a></li>
+                    <li ><a href="blog.html"style="font-size: 18px;">blog</a></li>
+                    <li ><a href="login.html"style="font-size: 18px;">login</a></li>
+                    <li ><a href="cadastro.html"style="font-size: 18px;">cadastro</a></li>
+                    <li ><a href="privacidade.html"style="font-size: 18px;">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div id="menuButton">
+                <span class="sumir" style="color: aliceblue;">-</span> 
+            </div>
+    </header>
+        <main>
+                <section>
+                        <img src="../imagens/imagem avaliacao.jpg" >
+                </section>    
+                <aside>
+                    <h1 style="color: white">Faça o seu login</h1><br>
+                        <form action="paginas/login.html" method="post">
+                            <label style="color: white" for="email">E-mail:</label>
+                            <input type="text" id="nome" required><br><br>
+                            <label style="color: white" for="senha">Senha:</label>
+                            <input type="password" id="senha"><br><br> 
+                            <div class="conjunto">
+                                <tag style="color: white">Lembrar senha?</tag>
+                                <input type="checkbox" class="check">
+                         </div>  
+                            <button type="submit">Entrar</button>
+                            <p style="color: white" >Esqueceu sua senha?
+                             <a style="color:white" href="esquecisenha.html"> Clique aqui</a>
+                            </p> 
+                            <p style="color: white">Não está matriculado?
+                                <a style="color:white" href="cadastro.html"> cadastre-se aqui</a>
+                            </p>
+                        </form>
+                </aside>        
+        </main>
+        <script src="../js/script.js"></script>
+</body>
+</html>
